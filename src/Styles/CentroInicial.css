@@ -1,0 +1,49 @@
+/* Estilos base */
+Header {
+    background-image: url('../Imagens/FundoCompleto.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Melhor para imagens de fundo responsivas */
+    height: 55rem;
+    width: 100%;
+}
+
+.CimaAzul {
+    background-color: var(--azul-principal);
+}
+
+h1 {
+    color: transparent;
+}
+
+.Centro img {
+    max-width: 100%; /* Certifique-se de que a imagem não exceda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.Centro {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2rem 0; /* Espaçamento superior e inferior reduzido */
+}
+
+.Centro p {
+    margin: 0; /* Reduzido o espaço inferior */
+}
+
+.Centro span {
+    font-size: 4rem; /* Reduzido o tamanho da fonte */
+    color: var(--azul-principal);
+    font-weight: 600;
+}
+
+/* Consulta de mídia para telas menores */
+@media screen and (max-width: 768px) {
+    .Centro {
+        font-size: 2rem; /* Reduz o tamanho da fonte */
+    }
+
+    .Centro span {
+        font-size: 3rem; /* Reduz o tamanho da fonte */
+    }
+}

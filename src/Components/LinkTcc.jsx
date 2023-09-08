@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import TCC from '../Imagens/TCC.jpg'
+import '../Styles/LinkTCC.css'
 
 const LinkTcc = () => {
   return (
-    <section>
+    <section className='Link-img'>
         <div className="Texto">
             <h2>
                 Lançamento
@@ -19,12 +20,10 @@ const LinkTcc = () => {
         <div className="butao">
             <nav>
               <ul>
-              <Link to ="/Lance">Clique aqui</Link> 
+              <Link to ="/Lance" className='link-sem-sublinhado'> <strong> Clique aqui  </strong><br />
+              para mais informações </Link> 
               </ul>
             </nav>
-            <p>
-                para mais informações
-            </p>
         </div>
     </section>
   )

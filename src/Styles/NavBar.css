@@ -1,0 +1,60 @@
+.NavBar {
+    background-color: var(--azul-principal);
+    display: flex;
+    justify-content: flex-end; /* Alinha o conteúdo à direita */
+    align-items: flex-start; /* Alinha o conteúdo ao topo */
+    height: 4vh; /* Altura total da viewport (ajuste conforme necessário) */
+}
+
+
+/* Estilos para a barra de pesquisa */
+.search-container {
+    margin-top: 0.1rem;
+    height: 2rem;
+    display: flex;
+    background-color: var(--cor-lupa); /* Fundo azul */
+    color: white; /* Cor do texto */
+    border-radius: 1rem;
+    padding: 0.2rem;
+    text-decoration: none; /* Remover sublinhado */
+  }
+  
+  .search-input {
+    flex: 1;
+    border: none;
+    background: none;
+    color: white;
+    outline: none;
+  }
+  
+  .search-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0 1rem;
+  }
+  
+  /* Remova o sublinhado dos links */
+.NavBar ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin-top: 0.1rem ;
+    display: flex; /* Exibir os itens horizontalmente */
+  }
+  .Navs {
+   margin-top: 0.5rem;
+   text-decoration: none;
+  }
+  
+  .Navbar li {
+    margin-right: 1.5rem; /* Espaçamento entre os itens */
+    text-decoration: none;
+    color: white;
+  }
+  
+  .listas-sublinhados {
+    text-decoration: none; /* Remover sublinhado dos links */
+    color: white; /* Cor do texto */
+  }
+  

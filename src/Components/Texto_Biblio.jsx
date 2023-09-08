@@ -1,14 +1,18 @@
 import React from 'react'
 import Car from '../Imagens/Car.png'
+import '../Styles/Biblio.css'
 
 const Texto_Biblio = () => {
   return (
     <section>
+        <div className='Texto-lancamento'>
         <h2>
             Bibliografia
         </h2>
+        </div>
+        
         <div>
-            <ul>
+            <ul className='Lista-vertical'>
                 <li>
                     <a href="https://projecthub.arduino.cc/Bcjams/garage-parking-assistant-55c22c">https://projecthub.arduino.cc/Bcjams/garage-parking-assistant-55c22c</a>
                 </li>
@@ -39,7 +43,7 @@ const Texto_Biblio = () => {
                 </li>
             </ul>
         </div>
-        <div>
+        <div className='Carro-final'>
             <img src={Car} alt="" />
         </div>
     </section>

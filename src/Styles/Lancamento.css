@@ -1,0 +1,46 @@
+.Texto-lancamento h2 {
+    margin: 2rem 4rem 2rem 4rem;
+    color: var(--azul-principal);
+    font-size: 3rem;
+}
+.Subtitulo {
+    font-size: 3rem;
+    font-weight: 200;
+    margin: 4rem;
+}
+.texto {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem
+}
+.texto p {
+    padding-bottom: 2rem;
+    font-size: 1.6rem;
+}
+.verde {
+    color: var(--verde) ;
+    font-weight: 600;
+}
+.amarelo {
+    color: var(--amarelo);
+    font-weight: 600;
+}
+.vermelho {
+    color: var(--vermelho);
+    font-weight: 600;
+}
+.semaforo {
+    align-items: center;
+}
+
+.semaforo {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 700px; /* Defina uma altura para o contêiner (ajuste conforme necessário) */
+  }
+  
+  .semaforo img {
+    max-width: 100%; /* Certifica-se de que a imagem não exceda a largura do contêiner */
+    max-height: 100%; /* Certifica-se de que a imagem não exceda a altura do contêiner */
+  }

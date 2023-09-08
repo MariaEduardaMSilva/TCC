@@ -1,0 +1,53 @@
+/* Estilos base */
+.Motivos {
+    height: 57rem;
+    margin-top: 4rem;
+    background-color: var(--azul-secundario);
+}
+.Titulo-motivos {
+    color: white;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+.Titulo-motivos p {
+   padding: 4rem;
+   font-size: 3rem;
+   font-weight: 600;
+}
+
+.quadrados {
+    display: flex; /* Ativa o flexbox */
+    justify-content: space-between; /* Espaço uniforme entre os elementos */
+}
+.item3, .item2, .item1 {
+    height: 30rem;
+    align-items: center;
+    margin: 1rem 2rem 1rem 2rem;
+    border-radius: 4rem;
+    background-color: var(--azul-principal);
+    flex: 1; /* Cresce para ocupar todo o espaço disponível */
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    padding: 1.6rem; /* Espaçamento interno para espaçar os elementos */
+}
+.item3 p, .item2, .item1 {
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    color: white;
+}
+.quadrados img {
+    max-width: 50%; /* Impede que a imagem ultrapasse a largura da div */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Consulta de mídia para telas menores */
+@media screen and (max-width: 768px) {
+    .quadrados {
+        flex-direction: column; /* Altera para uma única coluna */
+        align-items: center; /* Centraliza verticalmente os elementos */
+    }
+    
+    .item3, .item2, .item1 {
+        margin: 1rem 0; /* Remove as margens horizontais */
+        width: 100%; /* Ocupa toda a largura disponível */
+    }
+}

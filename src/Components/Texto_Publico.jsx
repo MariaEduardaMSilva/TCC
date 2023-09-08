@@ -4,9 +4,13 @@ import Car2 from '../Imagens/Car2.png'
 const Texto_Publico = () => {
   return (
     <section>
+        <div className='Texto-lancamento'>
         <h2>
             Quem é nosso público alvo?
         </h2>
+
+        </div>
+        
         <div className="texto">
             <p>
             O público-alvo do nosso projeto abrange uma <strong>
@@ -19,9 +23,7 @@ const Texto_Publico = () => {
             <p>
             <strong>
             Nossa solução é especialmente direcionada para motoristas que enfrentam desafios ao estacionar em espaços limitados </strong>, como garagens residenciais, estacionamentos subterrâneos ou estabelecimentos comerciais com vagas apertadas. 
-            </p>
-            <p>
-            Esses motoristas muitas vezes lidam com a dificuldade de estimar com precisão a distância entre o veículo e a parede, o que pode resultar em colisões ou manobras demoradas. Além disso, nosso dispositivo é projetado para ser utilizado por motoristas de diferentes níveis de habilidade. 
+            <br />Esses motoristas muitas vezes lidam com a dificuldade de estimar com precisão a distância entre o veículo e a parede, o que pode resultar em colisões ou manobras demoradas. Além disso, nosso dispositivo é projetado para ser utilizado por motoristas de diferentes níveis de habilidade. 
             </p>
         </div>
         <div className="texto">

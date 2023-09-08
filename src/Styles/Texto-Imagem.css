@@ -1,0 +1,18 @@
+.textoImagem {
+    display: flex; /* Define o contêiner como flexível para organizar imagem e texto lado a lado */
+    align-items: right; /* Centraliza verticalmente os elementos dentro do contêiner */
+  }
+  
+  .textoImagem img {
+    max-width: 40%; /* Define a largura máxima da imagem (ajuste conforme necessário) */
+    margin-right: 4rem; /* Espaçamento entre a imagem e o texto (ajuste conforme necessário) */
+    margin-left: 5rem;
+    max-height:50rem;
+  }
+  
+  .textoImagem p {
+    padding: 1rem;
+    font-size: 1.6rem;
+    margin-right: 10rem;
+  }
+ 

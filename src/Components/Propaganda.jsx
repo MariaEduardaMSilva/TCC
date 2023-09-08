@@ -1,18 +1,22 @@
 import React from 'react'
+import '../Styles/Propaganda1.css'
 
 const Propaganda = () => {
   return (
-    <section>
+    <section className='AD'>
         <div className="Propaganda">
             <h2>
                 Compre agora
             </h2>
             <p>
-                Ganhe um cumpom de 5% off e escolha um presente até R$ 4.000 reais
+                Ganhe um cumpom de 5% off <br /> e escolha um presente até <br />R$ 4.000 reais
             </p>
-            <p>
-                Compre já
-            </p>
+            <div className='AD-butao'>
+                <button >
+                    Compre já
+                </button>        
+            </div>
+            
         </div>
     </section>
   )

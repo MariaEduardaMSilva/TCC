@@ -2,11 +2,15 @@ import React from 'react'
 import Navbar from './Navbar'
 import Car3 from '../Imagens/car3.png'
 import Car4 from '../Imagens/car4.png'
+import '../Styles/Texto-Imagem.css'
 
 const Texto_Objetivo = () => {
   return (
     <section>
+        <div className='Texto-lancamento'>
         <h2>Objetivo</h2>
+        </div>
+        
         <div className='texto'>
             <p>
             Nosso projeto tem como <span>

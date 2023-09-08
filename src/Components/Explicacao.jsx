@@ -1,11 +1,12 @@
 import React from 'react'
 import semaforo from '../Imagens/semaforo.png'
+import '../Styles/Lancamento.css'
 
 const Explicacao = () => {
   return (
     <section>
-        <h2>
-            Funciona?
+        <h2 className='Subtitulo'>
+            Como Funciona?
         </h2>
         <div className="texto">
             <p>
